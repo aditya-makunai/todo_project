@@ -15,7 +15,7 @@ class TodoUpdate(TodoBase):
 
 class TodoInDB(TodoBase):
     id: int
-    created_at: datetime
+    # created_at: datetime
     updated_at: Optional[datetime] = datetime.now()
 
     class Config:
